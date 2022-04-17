@@ -1,0 +1,268 @@
+/* common css start */
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+
+}
+body{
+    width: 1170px;
+    
+}
+html , body{
+    scroll-behavior: smooth;
+}
+ol, ul {
+     list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 994px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* common css end */
+
+/* nav and banner section css start */
+nav{
+    background-image: url(../img/Sarajevo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+
+}
+nav .row{
+    align-items: center;
+}
+nav .logo{
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+    
+}
+nav .logo img{
+    display: block;
+    width: 90px;
+    
+}
+nav p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    color: #fff;
+    padding-left: 36px;
+}
+nav .menu{
+    width: 60%;
+    font-family: 'lato' , sans-serif;
+    font-weight: 100;
+
+}
+nav .menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+nav .menu ul li a{
+    display: inline-block;
+    color: #fff;
+    padding: 25px 15px;
+    transition: 0.4s;
+}
+nav .menu ul li:hover a{
+    color: #4c76ff;
+
+}
+
+    
+
+#banner{
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+#banner .row{
+    align-items: center;
+
+}
+#banner .banner_content{
+    width: 70%;
+    padding-left: 95px;
+    padding-top: 100px;
+    
+}
+#banner .banner_content h1{
+    font-family: 'Open Sans' , sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 60px;
+}
+#banner .banner_content h1 span,h2 span{
+    color: #3d64d5;
+}
+.banner_content h2{
+    font-family: 'Open Sans' , sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 45px;
+}
+.banner_content h5{
+    font-family: 'open sans' , sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #fff;
+
+}
+#banner .banner_content  i{
+    font-size: 22px;
+    text-align: center;
+    line-height: 50px;
+    width: 14px;
+    color: #606882;
+    margin-right: 20px;
+    transition: .4s;
+}
+#banner .banner_content i:hover{
+    color: #fff;
+}
+#banner .banner img{
+    width: 30%;
+
+}
+#banner .banner_img img{
+    position: absolute;
+    height: 398px;
+    bottom: 70px;
+}
+
+
+
+/* nav and banner section css end */
+
+/* features section css start*/
+#features{
+    background-color: #efefef;
+    opacity: 100%;
+}
+#features .container{
+    height: 434px;
+}
+.heading{
+    text-align: center;
+    padding-top: 72px;
+    color: #4c76ff;
+    text-transform: uppercase;
+    font-family: 'open sans' , sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+
+}
+#features .feature_content{
+    width: 33%;
+    align-items: center;
+}
+#features .heading img{
+    height: 2px;
+    margin-bottom: 5px;
+    
+}
+#features .heading i{
+    color: #606882;
+}
+#features .features_content .features_icon i{
+    line-height: 160px;
+    height: 160px;
+    width: 160px;
+    font-size: 70px;
+    border-radius: 50%;
+    border: 1px solid #efefef;
+    margin-top: 34px;
+    margin-left: 63px;
+    text-align: center;
+    color: #efefef;
+    background-color: #4bcaff;
+}
+#features .row{
+    align-items: center;
+}
+#features .feature_content i{
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 80px;
+    color: #3d64d5;
+    text-align: center;
+    align-items: center;
+}
+#features .feature_content h4{
+    color: #062033;
+    font-family: 'open sans' , sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    transition: 0.3s;
+    margin-left: 30px;
+    
+}
+#features .feature_content h4:hover{
+    color: #4c76ff;
+}
+#features .feature_content p{
+    font-family: 'open sans' , sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    margin-top: 20px;
+    margin-left: 30px;
+    color: #062033;
+}
+/* features section css end */
+
+/* works section start */
+#works .container{
+    height: 1184px;
+}
+#works .row{
+    align-items: center;
+}
+.start_text{
+    margin-top: 80px;
+    margin-left:95px;
+    margin-right: 95px;
+    text-align: center;
+    color: #282528;
+    font-family: 'open sans' , sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+
+}
+.screen{
+    display: inline-block;
+}
+
+/* works section end */
+
+/* gallery section start */
+#gallery .container{
+    width: 100%;
+}
+
+#gallery .item{
+    width: 25%;
+    
+}
+#gallery .item img{
+    display: block;
+    width: 100%;
+}
+/* gallery section end */
+
+/*team section start */
+
+/*team section end */
